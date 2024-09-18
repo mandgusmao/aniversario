@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, minha vida</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Oi, meu amor!</strong>
+                        <p>
+                          Hoje é o dia de celebrar a vida de uma das pessoas mais incríveis que eu conheço. Quero te desejar um feliz aniversário e que todos os seus sonhos e desejos se realizem. Me sinto muito sortuda por ter você ao meu lado, compartilhando tudo de melhor. Que seu aniversário seja repleto de alegria, amor, e todas as coisas boas que você merece. Espero estar com você em todos os próximos. 
+                          <p class="texto">Parabéns, minha vida! </p>
+                          <p class="textoo">Te amo muito! 💖 </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
